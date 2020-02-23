@@ -1,18 +1,23 @@
 PODS:
-  - SDWebImage (5.0.0):
-    - SDWebImage/Core (= 5.0.0)
-  - SDWebImage/Core (5.0.0)
+  - SDWebImage (5.5.2):
+    - SDWebImage/Core (= 5.5.2)
+  - SDWebImage/Core (5.5.2)
+  - TAPageControl (0.2.1)
 
 DEPENDENCIES:
   - SDWebImage (>= 5.0.0)
+  - TAPageControl (= 0.2.1)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://gitee.com/guangyao_jia/PrivateSpecs.git:
+    - TAPageControl
+  https://github.com/CocoaPods/Specs.git:
     - SDWebImage
 
 SPEC CHECKSUMS:
-  SDWebImage: 5de80a0302de9e377e62f47d2fa1304efff0e55f
+  SDWebImage: 4d5c027c935438f341ed33dbac53ff9f479922ca
+  TAPageControl: e20b9be9aa40b6230b0f1b94dc07bd44383985b2
 
-PODFILE CHECKSUM: 36b38d6f3870a9dd8180509afda3b51d62283956
+PODFILE CHECKSUM: b5e035ff0e01eedfac3c0f9a1fbc5f61ae525a88
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.4
